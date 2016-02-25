@@ -178,7 +178,3 @@ angular.module('cookieNotiferModule', [])
 		body.removeChild(cookieNotifier);
 	}
 }]);
-
-angular.element(document).ready(() => {
-	angular.bootstrap(document.body, ['cookieNotiferModule']);
-});

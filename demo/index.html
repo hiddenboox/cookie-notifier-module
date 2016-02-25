@@ -12,5 +12,10 @@
         <cookie-notifier-close>Y</cookie-notifier-close>
     </cookie-notifier>
     <script src="../cookie-notifier.js"></script>
+    <script>
+        angular.element(document).ready(() => {
+            angular.bootstrap(document.body, ['cookieNotiferModule']);
+        });
+    </script>
 </body>
 </html>
